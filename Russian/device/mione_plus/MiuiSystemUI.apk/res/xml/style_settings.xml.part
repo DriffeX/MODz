@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBoxPreference android:persistent="false" android:title="@string/settings_show_network_speed" android:key="show_network_speed" />
+<PreferenceScreen android:title="@string/carrier_name" android:key="carrier_name">
+    <intent android:targetPackage="com.miui.SpnConfig" android:action="android.intent.action.MAIN" android:targetClass="com.miui.SpnConfig.MiuiSpnConfigActivity" />
+</PreferenceScreen>
